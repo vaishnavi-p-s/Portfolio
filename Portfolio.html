@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sreevaishnavi P.S - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://static.vecteezy.com/system/resources/thumbnails/045/626/739/small_2x/programming-code-abstract-technology-background-seamless-loop-animation-digital-code-lines-on-a-black-background-video.jpg'); /* CSE-related background image */
+            background-size: cover;
+            color: #fff;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 50px;
+        }
+        header {
+            margin-bottom: 50px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .intro-text {
+            font-size: 20px;
+            color: #fff;
+            margin-top: 20px;
+        }
+        .about-me, .skills, .projects, .education, .experience, .certifications, .contact {
+            margin-top: 40px;
+        }
+        .section-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .skill-item, .project, .education-item, .experience-item {
+            display: inline-block;
+            margin: 10px;
+            font-size: 18px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 5px;
+            width: 300px;
+            text-align: left;
+        }
+        .project img, .education-item img, .experience-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .project p, .education-item p, .experience-item p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0rZ2sZcqWJvbNG-u5bctj492CoaAFH8spjQ&s" alt="Profile Picture" class="profile-img">
+            <h1>Sreevaishnavi P.S</h1>
+            <p class="intro-text">Age: 21 | CGPA: 6.89 | BTech in CSE, Symbiosis Institute of Technology, Pune</p>
+        </header>
+
+        <!-- About Me Section -->
+        <section class="about-me">
+            <h2 class="section-title">About Me</h2>
+            <p>Hi, I'm Sreevaishnavi, a passionate Computer Science Engineering student currently in my third year at Symbiosis Institute of Technology, Pune. I have a keen interest in software development, particularly in Java, SQL, and problem-solving. I aim to enhance my skills in AR/VR development and work on cutting-edge technologies in the tech industry. I'm always looking for opportunities to grow and learn more in the field of programming and development.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skill-item">Core Java</div>
+            <div class="skill-item">C Programming</div>
+            <div class="skill-item">SQL</div>
+            <div class="skill-item">Basic C++</div>
+            <div class="skill-item">Basic Python</div>
+            <div class="skill-item">Operating Systems</div>
+            <div class="skill-item">Problem Solving</div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <h3>B.Tech in Computer Science Engineering</h3>
+                <p>Symbiosis Institute of Technology, Pune | 2022-Present</p>
+                <p>CGPA: 6.89</p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-item">
+                <h3>Intern, Akshar Paaul NGO</h3>
+                <p>June 2024 - August 2024</p>
+                <p>Worked on various projects like creating an attendance system, teaching, and helping with marketing activities.</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects">
+            <h2 class="section-title">Projects</h2>
+
+            <!-- Scrolling LED Display -->
+            <div class="project">
+                <h3>Scrolling LED Display</h3>
+                <img src="https://robomart.com/image/cache/catalog/Blog/Arduino/MAX7219-LED-Matrix-Display-with-Arduino-600x315w.jpg.webp" alt="Scrolling LED Display">
+                <p>This was our first semester project where we created a scrolling LED display using Arduino.</p>
+            </div>
+
+            <!-- Silent Intruder Alarm -->
+            <div class="project">
+                <h3>Silent Intruder Alarm System</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8tdpYkLKf_NwuPR7EM8dsB7c-_i_PR5mLMg&s" alt="Silent Intruder Alarm">
+                <p>A motion sensor-based intruder alarm system that we developed using Arduino, motion sensors, and a SIM card.</p>
+            </div>
+
+            <!-- AR/VR Car Project -->
+            <div class="project">
+                <h3>AR/VR Car Project - Autoverse</h3>
+                <img src="data:image/jpeg;base64,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" alt="AR/VR Car Project">
+                <p>AR/VR-based car visualization in Unity and Google Cardboard. Project 'Autoverse' uses VR/AR to create an immersive car experience.</p>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certification-item">
+                <h3>Java Programming - Coursera</h3>
+                <p>Completed a certification course on Java programming that covered core concepts and application development.</p>
+            </div>
+            <div class="certification-item">
+                <h3>Python for Data Science - Udemy</h3>
+                <p>Learned the fundamentals of Python and its applications in data science and machine learning.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to reach out through email or connect with me on LinkedIn:</p>
+            <p>Email: <a href="mailto:vaishnavips555@gmail.com">vaishnavips555@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/vaishnavi-ps-78a42425b">www.linkedin.com/in/vaishnavi-ps-78a42425b</a></p>
+            <p>GitHub: <a href="https://www.github.com/in/vaishnavi-p-s">www.github.com/in/vaishnavi-p-s</a></p>
+        </section>
+
+    </div>
+
+</body>
+</html>
